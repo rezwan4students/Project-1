@@ -6,7 +6,7 @@ h1{
     font-size: 50px;
     font-weight: 800; 
 }
-#orange {
+.orange {
     color: orange; 
 }
 
@@ -29,6 +29,8 @@ h1{
 .half-width {
     width: 50%;
     margin-left: 5%;
+    margin-right: 5%;
+
 }
 
 .compress {
@@ -43,4 +45,34 @@ h1{
     color: white; 
     font-weight: bold;
     margin-left: 20px; 
+}
+
+#left-box{
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    border-left: 10px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+    
+    
+
+
+}
+
+#right-box{
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    border-right: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1; 
+    
+
+
+}
+
+.last {
+    text-align: center;
+    color: grey;
 }
